@@ -12,7 +12,7 @@ class Gem::Mirror
   ALL_SPECS_FILES = ["yaml","yaml.Z","latest_specs.#{Gem.marshal_version}","latest_specs.#{Gem.marshal_version}.gz",
                 "Marshal.#{Gem.marshal_version}", "Marshal.#{Gem.marshal_version}.Z",
                 "prerelease_specs.#{Gem.marshal_version}","prerelease_specs.#{Gem.marshal_version}.gz",
-                "specs.#{Gem.marshal_version}","specs.#{Gem.marshal_version}.gz"]
+                "specs.#{Gem.marshal_version}.gz"]
 
   DEFAULT_URI = 'http://production.cf.rubygems.org/'
   DEFAULT_TO = File.join(Gem.user_home, '.gem', 'mirror')
